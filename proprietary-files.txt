@@ -42,10 +42,6 @@ vendor/firmware/bcm4361B2_semco.hcd
 vendor/firmware/ois_fw_dom.bin
 vendor/firmware/ois_fw_sec.bin
 
-# GPS
--vendor/lib/libwrappergps.so
--vendor/lib64/libwrappergps.so
-
 # Keymaster
 -vendor/lib64/libkeymaster_helper_vendor.so
 
