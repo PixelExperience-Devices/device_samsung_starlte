@@ -70,10 +70,6 @@ vendor/firmware/nfc/BRI/sec_s3nrn82_firmware.bin
 -vendor/lib64/libopenvx.so
 vendor/firmware/iva20_rt-lhotse.bin
 
-# Sensors
--vendor/lib/sensors.sensorhub.so
--vendor/lib64/sensors.sensorhub.so
-
 # Widewine
 -vendor/lib/libwvhidl.so
 
