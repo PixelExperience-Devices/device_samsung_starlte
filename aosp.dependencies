@@ -1,32 +1,38 @@
 [
-  { 
-    "remote": "pixel-devices",
-    "repository": "device_samsung_exynos9810-common",
-    "target_path": "device/samsung/exynos9810-common",
-    "branch": "thirteen-plus"
-  },
-  { 
-    "remote": "pixel-devices-blobs",
-    "repository": "vendor_samsung_exynos9810-common",
-    "target_path": "vendor/samsung/exynos9810-common",
-    "branch": "thirteen"
-  },
-  { 
-    "remote": "pixel-devices-blobs",
-    "repository": "vendor_samsung_starlte",
-    "target_path": "vendor/samsung/starlte",
-    "branch": "thirteen"
-  },
   {
-    "repository" : "LineageOS/android_device_samsung_slsi_sepolicy",
-    "target_path": "device/samsung_slsi/sepolicy",
-    "branch": "lineage-19.1",
+    "repository" : "SamsungExynos9810/device_samsung_exynos9810-common-V2",
+    "target_path": "device/samsung/exynos9810-common",
+    "branch": "thirteen-slsi-omx",
     "remote": "github"
   },
-  { 
-    "remote": "pixel-devices",
-    "repository": "kernel_samsung_exynos9810",
+  {
+    "repository" : "SamsungExynos9810/vendor_samsung_exynos9810-common-V2",
+    "target_path": "vendor/samsung/exynos9810-common",
+    "branch": "thirteen-slsi-omx",
+    "remote": "github"
+  },
+  {
+    "repository" : "SamsungExynos9810/vendor_samsung_starlte-V2",
+    "target_path": "vendor/samsung/starlte",
+    "branch": "thirteen",
+    "remote": "github"
+  },
+  {
+    "repository" : "SamsungExynos9810/device_samsung_slsi_sepolicy",
+    "target_path": "device/samsung_slsi/sepolicy",
+    "branch": "thirteen-slsi",
+    "remote": "github"
+  },
+  {
+    "repository" : "SamsungExynos9810/hardware_samsung_slsi",
+    "target_path": "hardware/samsung_slsi",
+    "branch": "thirteen-clean-upstream",
+    "remote": "github"
+  },
+  {
+    "repository" : "SamsungExynos9810/kernel_samsung_exynos9810-V2",
     "target_path": "kernel/samsung/exynos9810",
-    "branch": "thirteen"
+    "branch": "everest-next-exp",
+    "remote": "github"
   }
 ]
